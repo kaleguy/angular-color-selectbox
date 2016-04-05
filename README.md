@@ -42,19 +42,30 @@ angular.module('app', ['color.selectbox']);
 
 * Include in your view
 ```html
-<color-selectbox ng-model="myColor"></color-selectbox>
+<color-selectbox onselect="vm.onSelectColor"></color-selectbox>
 ```
 
 ## Options
 
-If a list is given then choose one of the items. The first item in the list will be the default. Only ```ng-model``` is required.
+* onselect: function to be executed when color is chosen.
+* item: data for use by controller for the directive
+* position: put the menu to right or left of button, default is 'left'
+* color: color of button
+* size: 'small', 'medium' or 'large', 16, 25 or 36 dots, default is 25
+
 ```html
 <color-selectbox
-    ng-model=""
-    color-selectbox-on-change="onColorChange($event, color)"
+    onselect="vm.onSelectColor"
+    item="myItem"
+    position="'right'"
+    color="myColor"
+    size="'small'"
 ></color-picker>
 ```
 
 ## Requirements
 
 * angularjs (v1.3 and higher)
+* lodash
+* jquery
+* fontAwesome
