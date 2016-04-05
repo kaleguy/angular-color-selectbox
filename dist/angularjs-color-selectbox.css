@@ -1,10 +1,10 @@
 /*!
- * angularjs-color-selectbox v1.0.0
+ * angularjs-color-selectbox v1.0.1
  * https://github.com/kaleguy/angular-color-selectbox/
  *
  * Copyright 2016 kaleguy
  *
- * 2016-04-05 14:43:49
+ * 2016-04-05 18:32:58
  *
  */
 .sr_cp {
@@ -25,7 +25,7 @@
 .sr_cp I {
   padding: 4px;
   font-style: normal;
-  font-size: 12;
+  font-size: 12px;
 }
 * {
   box-sizing: border-box;
