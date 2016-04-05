@@ -1,7 +1,7 @@
 {
     "name": "angular-color-selectbox",
     "description": "Popup menu of preset color choices - Directive For AngularJS",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "homepage": "https://github.com/kaleguy/angular-color-selectbox",
     "repository": {
         "type": "git",
