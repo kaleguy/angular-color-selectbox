@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c550a3e3-6eda-4dcd-b170-0940ab2350b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/angularjs-color-selectbox.css" afterPath="$PROJECT_DIR$/dist/angularjs-color-selectbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/angularjs-color-selectbox.min.css" afterPath="$PROJECT_DIR$/dist/angularjs-color-selectbox.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="angular-color-selectbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,21 +24,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.4583333">
-              <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.23675497">
+              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="angularjs-color-selectbox.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="angularjs-color-selectbox.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/angularjs-color-selectbox.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54635763">
+            <state vertical-scroll-proportion="-6.470588">
               <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="angularjs-color-selectbox.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/angularjs-color-selectbox.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.3529413">
+              <caret line="8" column="265" selection-start-line="8" selection-start-column="265" selection-end-line="8" selection-end-column="265" />
               <folding />
             </state>
           </provider>
@@ -93,7 +104,6 @@
         <option value="$PROJECT_DIR$/.tmp/color-selectbox.directive.js" />
         <option value="$PROJECT_DIR$/dist/angularjs-color-selectbox.js" />
         <option value="$PROJECT_DIR$/grunt/build.js" />
-        <option value="$PROJECT_DIR$/dist/angularjs-color-selectbox.min.css" />
         <option value="$PROJECT_DIR$/CONTRIBUTING.md" />
         <option value="$PROJECT_DIR$/RELEASE.md" />
         <option value="$PROJECT_DIR$/grunt/options/less.js" />
@@ -107,8 +117,9 @@
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/dist/angularjs-color-selectbox.css" />
+        <option value="$PROJECT_DIR$/dist/angularjs-color-selectbox.min.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -393,18 +404,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/dist/angularjs-color-selectbox.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4583333">
-          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+        <state vertical-scroll-proportion="-6.470588">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/angularjs-color-selectbox.css">
+    <entry file="file://$PROJECT_DIR$/dist/angularjs-color-selectbox.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54635763">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        <state vertical-scroll-proportion="-2.3529413">
+          <caret line="8" column="265" selection-start-line="8" selection-start-column="265" selection-end-line="8" selection-end-column="265" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23675497">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding />
         </state>
       </provider>
