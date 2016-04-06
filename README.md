@@ -11,10 +11,6 @@ AngularJS Color Selectbox Directive
 bower install angularjs-color-selectbox --save
 ```
 
-#### Npm
-```shell
-npm install angularjs-color-selectbox --save
-```
 
 #### Usage
 
@@ -22,17 +18,10 @@ npm install angularjs-color-selectbox --save
 
     * Bower
 
-    ```html
-    <link rel="stylesheet" href="bower_components/angular-color-picker/dist/angularjs-color-picker.min.css" />
-    <script src="bower_components/angular-color-picker/dist/angularjs-color-picker.min.js"></script>
-    ```
-
-    * Node
-
-    ```html
-    <link rel="stylesheet" href="node_modules/angularjs-color-picker/dist/angularjs-color-picker.min.css" />
-    <script src="node_modules/angular-color-picker/dist/angularjs-color-picker.min.js"></script>
-    ```
+```html
+<link rel="stylesheet" href="bower_components/angular-color-picker/dist/angularjs-color-picker.min.css" />
+<script src="bower_components/angular-color-picker/dist/angularjs-color-picker.min.js"></script>
+```
 
 
 * Add the module to your app
@@ -51,7 +40,7 @@ angular.module('app', ['color.selectbox']);
 * item: data for use by controller for the directive
 * position: put the menu to right or left of button, default is 'left'
 * color: color of button
-* size: 'small', 'medium' or 'large', 16, 25 or 36 dots, default is 25
+
 
 ```html
 <color-selectbox
@@ -59,9 +48,27 @@ angular.module('app', ['color.selectbox']);
     item="myItem"
     position="'right'"
     color="myColor"
-    size="'small'"
+
 ></color-picker>
 ```
+
+There is a global variable to set the size. This is set with a global
+variable rather than a setting on the directive, because the menu
+is created just once per page. Size should be 16, 25 (default) or 36.
+
+```javascript
+cpSize = 16;
+```
+
+The default pallette is a fairly random set of colors listed in
+ src/scripts/color-selectbox.directive.js. You'll probably want to edit
+the pallette list to suit your requirements. After editing, run
+
+```javascript
+grunt build
+```
+
+to regenerate the files in the /dist folder.
 
 ## Requirements
 
