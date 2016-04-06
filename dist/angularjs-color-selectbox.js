@@ -1,10 +1,10 @@
 /*!
- * angularjs-color-selectbox v1.0.1
+ * angularjs-color-selectbox v1.0.4
  * https://github.com/kaleguy/angular-color-selectbox/
  *
  * Copyright 2016 kaleguy
  *
- * 2016-04-05 21:09:53
+ * 2016-04-06 17:47:58
  *
  */
 "use strict";
