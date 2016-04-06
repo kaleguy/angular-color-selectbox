@@ -1,14 +1,14 @@
-# angularjs-color-selectbox
+# angular-color-selectbox
 
 
-AngularJS Color Selectbox Directive
+Angular Color Selectbox Directive
 
 ## Installation
 
 #### Bower
 
 ```shell
-bower install angularjs-color-selectbox --save
+bower install angular-color-selectbox --save
 ```
 
 
@@ -19,8 +19,8 @@ bower install angularjs-color-selectbox --save
     * Bower
 
 ```html
-<link rel="stylesheet" href="bower_components/angular-color-picker/dist/angularjs-color-picker.min.css" />
-<script src="bower_components/angular-color-picker/dist/angularjs-color-picker.min.js"></script>
+<link rel="stylesheet" href="bower_components/angular-color-selectbox/dist/angularjs-color-selectbox.min.css" />
+<script src="bower_components/angular-color-selectbox/dist/angularjs-color-selectbox.min.js"></script>
 ```
 
 
